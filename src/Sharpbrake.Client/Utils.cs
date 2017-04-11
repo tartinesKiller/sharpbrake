@@ -140,6 +140,11 @@ namespace Sharpbrake.Client
                         if (method.DeclaringType != null && string.IsNullOrEmpty(file))
                             file = method.DeclaringType.FullName;
 
+                        if(string.IsNullOrEmpty(file)) //almost sure it's lambda expression
+                        {
+                            file = "<lambda>";
+                        }
+
                         backtrace.Add(new Frame
                         {
                             File = file,

@@ -23,7 +23,7 @@
   },
 
   "dependencies": {
-    "Sharpbrake.Client": "3.0.2",
+    "Sharpbrake.Client": "3.0.3",
     "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
     "Microsoft.Extensions.Configuration": "1.0.0",
     "Microsoft.Extensions.Configuration.Json": "1.0.0"
